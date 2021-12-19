@@ -10,9 +10,34 @@
 <body>
     <h1>Contact Info</h1>
 
-    <a href="">Contact Info</a>
+    <!-- Trigger/Open contact info box-->
+    <a href="mybtn">Contact Info</a>
+
+    <!-- The box -->
+    <div id="myModal" class="modal">
+
+    <!-- Content in box-->
+    <div class="container">
+        <span class="close">$time;</span>
+        <form action="/action_page.php">
+            <label for="fname">First Name</label>
+            <input type="text" id="fname" name="firstname" placeholder="Your name...">
+            
+            <label for="lname">Last Name</label>
+            <input type="text" id="lname" name="lastname" placeholder="Your last name">
+
+            <label for="email">Email address</label>
+            <input type="text" id="email" name="email" placeholder="Your email...">
+
+            <label for="subject">Comments or Feedback</label>
+            <textarea id="subject" name="subject" placeholder="Let me knouw what you think of my website..." style="height:200px"></textarea>
+            
+            <input type="submit" value="Submit">
+    </div>
 
 
-    
+    <script src="./javascript.js">
+
+    </script>
 </body>
 </html>
