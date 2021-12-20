@@ -10,31 +10,60 @@
 <body>
     <h1>Contact Info</h1>
 
-    <!-- Trigger/Open contact info box-->
-    <a href="mybtn" id="mybtn">Contact Info</a>
+    <section>
 
-    <!-- The box -->
-    <div id="myModal" class="modal">
+    <!-- Trigger/Open The Modal -->
+    <button id="myBtn1">Contact Info</button>
 
-    <!-- Content in box-->
-    <div class="container">
-        <span class="close">$time;</span>
-        <form action="/action_page.php">
-            <label for="fname">First Name</label>
-            <input type="text" id="fname" name="firstname" placeholder="Your name...">
+    <!-- The Modal -->
+    <div id="myModal1" class="modal1">
+
+        <!-- Modal content -->
+        <div class="modal1-content">
+            <span class="close1">&times;</span>
+            <h2>Linkedin Profile</h2>
+            <a href="linkedin.com/in/guzmanjose86" target="_blank">linkedin.com/in/guzmanjose86</a>
             
-            <label for="lname">Last Name</label>
-            <input type="text" id="lname" name="lastname" placeholder="Your last name">
+            <h2>Email</h2>
+            <a href="josemguzman784@gmail.com" target="_blank">josemguzman784@gmail.com</a>
+        
+        
+        
+        </div>
 
-            <label for="email">Email address</label>
-            <input type="text" id="email" name="email" placeholder="Your email...">
-
-            <label for="subject">Comments or Feedback</label>
-            <textarea id="subject" name="subject" placeholder="Let me knouw what you think of my website..." style="height:200px"></textarea>
-            
-            <input type="submit" value="Submit">
     </div>
 
+    </section>
+
+    <h1>Let me know what you think!</h1>
+
+    <section>
+        <!-- Trigger/Open contact info box-->
+        <button id="myBtn">Contact me</button>
+
+        <!-- The box -->
+        <div id="myModal" class="modal">
+
+        <!-- Content in box-->
+        <div class="container modal-content">
+            <span class="close">&times;</span>
+            <form action="/action_page.php">
+                <label for="fname">First Name</label>
+                <input type="text" id="fname" name="firstname" placeholder="Your name...">
+            
+                <label for="lname">Last Name</label>
+                <input type="text" id="lname" name="lastname" placeholder="Your last name">
+
+                <label for="email">Email address</label>
+                <input type="text" id="email" name="email" placeholder="Your email...">
+
+                <label for="subject">Comments or Feedback</label>
+                <textarea id="subject" name="subject" placeholder="Let me knouw what you think of my website..." style="height:200px"></textarea>
+            
+                <input type="submit" value="Submit">
+        </div>
+
+    </section>
 
     <script src="./javascript.js">
 
