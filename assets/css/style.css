@@ -1,16 +1,30 @@
+:root {
+    --black: #181818;
+    --limegreen: #10ff00;
+    --spacing-unit: 1.5rem;
+}
+
 h1 {
     text-align: center;
 }
 
-
-
 * {box-sizing: border-box;}
+
+body {
+    background-repeat: no-repeat;
+    background: rgb(99, 99, 99);
+    background: linear-gradient(180deg, rgb(68, 68, 68) 0%, rgb(10, 10, 10) 25%);
+    color: var(--limegreen);
+    font-family:'Courier New', Courier, monospace;
+    line-height: 1.5;
+    height: 100vh;
+}
 
 
 input[type=text], select, textarea {
     width: 100%;
     padding: 12px;
-    border: 1px solid #ccc;
+    border: 1px solid rgb(255, 255, 255);
     border-radius: 4px;
     box-sizing: border-box;
     margin-top: 6px;
@@ -18,9 +32,9 @@ input[type=text], select, textarea {
     resize: vertical;
 }
   
-input[type=subres] {
-    background-color: #04AA6D;
-    color: white;
+input[type=submit] {
+    background-color: black;
+    color: lawngreen;
     padding: 12px 20px;
     border: none;
     border-radius: 4px;
@@ -28,56 +42,34 @@ input[type=subres] {
     text-align: center;
 }
   
-input[type=subres]:hover {
-    background-color: #45a049;
+input[type=submit]:hover {
+    box-shadow: purple inset 0px 0px 40px;
+    color: cyan;
+    transition: all .45s ease-in-out;
 }
   
 .container {
     border-radius: 5px;
-    background-color: #f2f2f2;
+    background-repeat: no-repeat;
+    background: rgb(99, 99, 99);
+    background: linear-gradient(180deg, rgb(17, 17, 17) 0%, rgb(56, 56, 56) 25%);
     padding: 20px;
 }
 
-
-
-
-/* The Modal (background) */
-.modal {
-    display: none; /* Hidden by default */
-    position: fixed; /* Stay in place */
-    z-index: 1; /* Sit on top */
-    padding-top: 100px; /* Location of the box */
-    left: 0;
-    top: 0;
-    width: 100%; /* Full width */
-    height: 100%; /* Full height */
-    
-    background-color: rgb(0,0,0); /* Fallback color */
-    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
-}
-  
-/* Modal Content */
-.modal-content {
-    background-color: #fefefe;
-    margin: auto;
-    padding: 20px;
-    border: 1px solid #888;
-    width: 80%;
-}
-  
-/* The Close Button */
-.close {
-    color: #aaaaaa;
-    float: right;
-    font-size: 28px;
-    font-weight: bold;
-}
-  
-.close:hover,
-.close:focus {
-    color: #000;
-    text-decoration: none;
+.mybtn1 {
+    background-color: rgb(0, 0, 0);
+    color: lawngreen;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
     cursor: pointer;
+    text-align: center;
+}
+
+.mybtn1:hover {
+    box-shadow: purple inset 0px 0px 40px;
+    color: cyan;
+    transition: all .45s ease-in-out; 
 }
 
 
@@ -93,31 +85,31 @@ input[type=subres]:hover {
     top: 0;
     width: 100%; /* Full width */
     height: 100%; /* Full height */
-    overflow: auto; /* Enable scroll if needed */
-    background-color: rgb(0,0,0); /* Fallback color */
-    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
-  }
+    
+    background-color: rgb(0, 0, 0); /* Fallback color */
+    background-color: rgba(255, 255, 255, 0); /* Black w/ opacity */
+}
   
-  /* Modal Content */
-  .modal1-content {
-    background-color: #fefefe;
+/* Modal Content */
+.modal1-content {
+    background-color: #a1a1a1;
     margin: auto;
     padding: 20px;
-    border: 1px solid #888;
+    border-radius: 5px;
     width: 80%;
-  }
+}
   
-  /* The Close Button */
-  .close1 {
-    color: #aaaaaa;
+/* The Close Button */
+.close1 {
+    color: #000000;
     float: right;
     font-size: 28px;
     font-weight: bold;
-  }
+}
   
-  .close1:hover,
-  .close1:focus {
+.close1:hover,
+.close1:focus {
     color: #000;
     text-decoration: none;
     cursor: pointer;
-  }
+}
