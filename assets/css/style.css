@@ -68,7 +68,7 @@ input[type=subres]:hover {
 /* The Close Button */
 .close {
     color: #aaaaaa;
-    float: none;
+    float: right;
     font-size: 28px;
     font-weight: bold;
 }
