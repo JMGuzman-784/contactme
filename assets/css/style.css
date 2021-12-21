@@ -113,3 +113,7 @@ input[type=submit]:hover {
     text-decoration: none;
     cursor: pointer;
 }
+
+.pa {
+    position: absolute;
+}
